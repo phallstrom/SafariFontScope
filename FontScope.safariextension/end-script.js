@@ -11,8 +11,8 @@ function handleContextMenu(event) {
 
   safari.self.tab.setContextMenuEventUserInfo(event, 
     {
-      'Font Family': font-family,
-      'Font Size': (font-size + ' / ' + line_height),
+      'Font Family': font_family,
+      'Font Size': (font_size + ' / ' + line_height),
       'Font Color': ('#' + r + g + b).toUpperCase()
     }
   );
