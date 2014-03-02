@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script type='text/javascript'>
+
+      function handleContextMenu(event) {
+        for ( var key in event.userInfo ) {
+          if (event.userInfo.hasOwnProperty(key)) {
+            event.contextMenu.appendContextMenuItem(
+              'noop' + key,
+              key + ': ' + event.userInfo[key]
+            );
+          }
+        }
+      }
+
+      function fontscopeHandler(event) {
+        return; 
+      };
+
+      safari.application.addEventListener('contextmenu', handleContextMenu, false);
+      safari.application.addEventListener('command', fontscopeHandler, false);
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
