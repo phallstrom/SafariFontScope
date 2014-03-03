@@ -3,11 +3,15 @@
     <script type='text/javascript'>
 
       function handleContextMenu(event) {
+        event.contextMenu.appendContextMenuItem(
+          'noop' + 'FontScope',
+          'FontScope'
+        );
         for ( var key in event.userInfo ) {
           if (event.userInfo.hasOwnProperty(key)) {
             event.contextMenu.appendContextMenuItem(
               'noop' + key,
-              key + ': ' + event.userInfo[key]
+              ' - ' + key + ': ' + event.userInfo[key]
             );
           }
         }
