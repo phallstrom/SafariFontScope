@@ -12,4 +12,4 @@ Get it [here](https://raw.github.com/phallstrom/SafariFontScope/master/FontScope
 
 ### Contributions & Thanks
 
-- [Sean Hosley](https://github.com/sfhosley) for the [logo](![image](https://raw.github.com/phallstrom/SafariFontScope/master/FontScope.safariextension/icon.png), feedback, and beta testing.
+- [Sean Hosley](https://github.com/sfhosley) for the [logo](https://raw.github.com/phallstrom/SafariFontScope/master/FontScope.safariextension/icon.png), feedback, and beta testing.
