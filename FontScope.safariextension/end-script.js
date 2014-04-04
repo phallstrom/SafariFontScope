@@ -7,12 +7,14 @@ function handleContextMenu(event) {
   var b           = parseInt(color.getRGBColorValue().blue.cssText).toString(16);
   var font_family = t.getPropertyCSSValue('font-family').cssText;
   var font_size   = t.getPropertyCSSValue('font-size').cssText;
+  var font_weight = t.getPropertyCSSValue('font-weight').cssText;
   var line_height = t.getPropertyCSSValue('line-height').cssText;
 
   safari.self.tab.setContextMenuEventUserInfo(event, 
     {
       'Family': font_family,
       'Size': (font_size + ' / ' + line_height),
+      'Weight': font_weight,
       'Color': ('#' + r + g + b).toUpperCase()
     }
   );

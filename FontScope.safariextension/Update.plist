@@ -10,9 +10,9 @@
        <key>Developer Identifier</key>
        <string>B5Z467B8T6</string>
        <key>CFBundleVersion</key>
-       <string>4</string>
+       <string>5</string>
        <key>CFBundleShortVersionString</key>
-       <string>1.3</string>
+       <string>1.4</string>
        <key>URL</key>
        <string>https://raw.github.com/phallstrom/SafariFontScope/master/FontScope.safariextz</string>
      </dict>
