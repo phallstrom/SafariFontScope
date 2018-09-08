@@ -8,7 +8,7 @@ Right click anywhere on the page and FontScope will display the font family, fon
 
 ### Download
 
-Get it [here](https://raw.github.com/phallstrom/SafariFontScope/master/FontScope.safariextz).
+Get it [here](https://safari-extensions.apple.com/details/?id=com.pjkh.fontscope-B5Z467B8T6).
 
 ### Contributions & Thanks
 
